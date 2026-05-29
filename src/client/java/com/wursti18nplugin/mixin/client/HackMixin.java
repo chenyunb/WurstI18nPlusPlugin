@@ -16,8 +16,7 @@ public class HackMixin {
         String OriginName = cir.getReturnValue();
         String NameKey = "I18n.Wurst.Hack.name." + OriginName;
         String TranslatedName = WurstI18nPlugin.tr(NameKey, OriginName);
-        
-        // 添加 null 检查，避免空指针异常
+
         if (WurstI18nPlugin.getTranslator() != null) {
             if (!WurstI18nPlugin.getTranslator().hasTranslation(NameKey)) {
                 cir.setReturnValue(OriginName);

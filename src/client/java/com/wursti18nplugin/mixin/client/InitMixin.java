@@ -2,7 +2,6 @@ package com.wursti18nplugin.mixin.client;
 
 import com.wursti18nplugin.Translator;
 import com.wursti18nplugin.WurstI18nPlugin;
-import net.minecraft.world.World;
 import net.wurstclient.WurstClient;
 import net.wurstclient.WurstTranslator;
 import org.slf4j.Logger;
